@@ -1,19 +1,17 @@
 <?php
-
 /**
  * load pages
+display view the pages
  */
 class LoadPages {
 	/**
-	 * summary
+	 * LoadPages
 	 */
 	public function __construct() {
 
 	}
-	public function DisplayPage() {
-		require './views/layout/header.php';
+	public function DisplayPage($param_URL) {
 		require './views/pages/index.php';
-		require './views/layout/footer.php';
 	}
 }
 ?>

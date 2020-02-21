@@ -1,4 +1,5 @@
- <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');">
+<?php require './views/layout/header.php';?>
+ <div class="hero-wrap js-fullheight" style="background-image: url('assets/images/bg_1.jpg');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
@@ -15,7 +16,7 @@
                 </div>
             </div>
         </div>
-    </div>
+</div>
     <div class="goto-here"></div>
     <section class="ftco-section ftco-product">
         <div class="container">
@@ -30,7 +31,7 @@
                     <div class="product-slider owl-carousel ftco-animate">
                         <div class="item">
                             <div class="product">
-                                <a href="#" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" alt="Colorlib Template">
+                                <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-1.jpg" alt="Colorlib Template">
                                     <span class="status">30%</span>
                                 </a>
                                 <div class="text pt-3 px-3">
@@ -54,7 +55,7 @@
                         </div>
                         <div class="item">
                             <div class="product">
-                                <a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Colorlib Template"></a>
+                                <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-2.jpg" alt="Colorlib Template"></a>
                                 <div class="text pt-3 px-3">
                                     <h3><a href="#">Young Woman Wearing Dress</a></h3>
                                     <div class="d-flex">
@@ -76,7 +77,7 @@
                         </div>
                         <div class="item">
                             <div class="product">
-                                <a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template"></a>
+                                <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-3.jpg" alt="Colorlib Template"></a>
                                 <div class="text pt-3 px-3">
                                     <h3><a href="#">Young Woman Wearing Dress</a></h3>
                                     <div class="d-flex">
@@ -98,7 +99,7 @@
                         </div>
                         <div class="item">
                             <div class="product">
-                                <a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" alt="Colorlib Template"></a>
+                                <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-4.jpg" alt="Colorlib Template"></a>
                                 <div class="text pt-3 px-3">
                                     <h3><a href="#">Young Woman Wearing Dress</a></h3>
                                     <div class="d-flex">
@@ -120,7 +121,7 @@
                         </div>
                         <div class="item">
                             <div class="product">
-                                <a href="#" class="img-prod"><img src="images/product-5.jpg" alt="Colorlib Template">
+                                <a href="#" class="img-prod"><img src="assets/images/product-5.jpg" alt="Colorlib Template">
                                     <span class="status">30%</span>
                                 </a>
                                 <div class="text pt-3 px-3">
@@ -144,7 +145,7 @@
                         </div>
                         <div class="item">
                             <div class="product">
-                                <a href="#" class="img-prod"><img src="images/product-6.jpg" alt="Colorlib Template"></a>
+                                <a href="#" class="img-prod"><img src="assets/images/product-6.jpg" alt="Colorlib Template"></a>
                                 <div class="text pt-3 px-3">
                                     <h3><a href="#">Young Woman Wearing Dress</a></h3>
                                     <div class="d-flex">
@@ -172,7 +173,7 @@
     <section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bg_2.jpg);">
+                <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(assets/images/bg_2.jpg);">
                     <a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
                         <span class="icon-play"></span>
                     </a>
@@ -204,7 +205,7 @@
             <div class="row">
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-1.jpg" alt="Colorlib Template"></a>
+                        <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-1.jpg" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -231,7 +232,7 @@
                 </div>
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-2.jpg" alt="Colorlib Template"></a>
+                        <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-2.jpg" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -258,7 +259,7 @@
                 </div>
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-3.jpg" alt="Colorlib Template"></a>
+                        <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-3.jpg" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -285,7 +286,7 @@
                 </div>
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
-                        <a href="#" class="img-prod"><img class="img-fluid" src="images/product-4.jpg" alt="Colorlib Template"></a>
+                        <a href="#" class="img-prod"><img class="img-fluid" src="assets/images/product-4.jpg" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -313,7 +314,7 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section ftco-section-more img" style="background-image: url(images/bg_5.jpg);">
+    <section class="ftco-section ftco-section-more img" style="background-image: url(assets/images/bg_5.jpg);">
         <div class="container">
             <div class="row justify-content-center mb-3 pb-3">
                 <div class="col-md-12 heading-section ftco-animate">
@@ -336,7 +337,7 @@
                             <div class="carousel-testimony owl-carousel ftco-owl">
                                 <div class="item">
                                     <div class="testimony-wrap py-4 pb-5">
-                                        <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                                        <div class="user-img mb-4" style="background-image: url(assets/images/person_1.jpg)">
                                             <span class="quote d-flex align-items-center justify-content-center">
                                                 <i class="icon-quote-left"></i>
                                             </span>
@@ -350,7 +351,7 @@
                                 </div>
                                 <div class="item">
                                     <div class="testimony-wrap py-4 pb-5">
-                                        <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+                                        <div class="user-img mb-4" style="background-image: url(assets/images/person_2.jpg)">
                                             <span class="quote d-flex align-items-center justify-content-center">
                                                 <i class="icon-quote-left"></i>
                                             </span>
@@ -364,7 +365,7 @@
                                 </div>
                                 <div class="item">
                                     <div class="testimony-wrap py-4 pb-5">
-                                        <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                                        <div class="user-img mb-4" style="background-image: url(assets/images/person_3.jpg)">
                                             <span class="quote d-flex align-items-center justify-content-center">
                                                 <i class="icon-quote-left"></i>
                                             </span>
@@ -378,7 +379,7 @@
                                 </div>
                                 <div class="item">
                                     <div class="testimony-wrap py-4 pb-5">
-                                        <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                                        <div class="user-img mb-4" style="background-image: url(assets/images/person_1.jpg)">
                                             <span class="quote d-flex align-items-center justify-content-center">
                                                 <i class="icon-quote-left"></i>
                                             </span>
@@ -392,7 +393,7 @@
                                 </div>
                                 <div class="item">
                                     <div class="testimony-wrap py-4 pb-5">
-                                        <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                                        <div class="user-img mb-4" style="background-image: url(assets/images/person_1.jpg)">
                                             <span class="quote d-flex align-items-center justify-content-center">
                                                 <i class="icon-quote-left"></i>
                                             </span>
@@ -422,7 +423,7 @@
             <div class="row d-flex">
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+                        <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
                         </a>
                         <div class="text mt-3 d-block">
                             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -436,7 +437,7 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+                        <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
                         </a>
                         <div class="text mt-3">
                             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -450,7 +451,7 @@
                 </div>
                 <div class="col-md-4 d-flex ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+                        <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
                         </a>
                         <div class="text mt-3">
                             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -465,7 +466,7 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_4.jpg);">
+    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(assets/images/bg_4.jpg);">
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-md-10">
@@ -574,3 +575,4 @@
             </div>
         </div>
     </section>
+<?php require './views/layout/footer.php';?>
