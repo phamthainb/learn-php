@@ -423,7 +423,7 @@
     <div class="row d-flex">
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
           </a>
           <div class="text mt-3 d-block">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -437,7 +437,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
           </a>
           <div class="text mt-3">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -451,7 +451,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
           </a>
           <div class="text mt-3">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>

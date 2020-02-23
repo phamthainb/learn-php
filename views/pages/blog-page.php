@@ -4,7 +4,7 @@
     <div class="row no-gutters slider-text align-items-center justify-content-center">
       <div class="col-md-9 ftco-animate text-center">
         <h1 class="mb-0 bread">Blog</h1>
-        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span></p>
+        <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Blog</span></p>
       </div>
     </div>
   </div>
@@ -14,7 +14,7 @@
     <div class="row d-flex">
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_1.jpg');">
           </a>
           <div class="text mt-3 d-block pl-md-5">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -28,7 +28,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_2.jpg');">
           </a>
           <div class="text mt-3 d-block pl-md-5">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -42,7 +42,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_3.jpg');">
           </a>
           <div class="text mt-3 d-block pl-md-5">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -56,7 +56,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_4.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_4.jpg');">
           </a>
           <div class="text mt-3 d-block d-block pl-md-5">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -70,7 +70,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_5.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_5.jpg');">
           </a>
           <div class="text mt-3 d-block pl-md-5">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
@@ -84,7 +84,7 @@
       </div>
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('assets/images/image_6.jpg');">
+          <a href="blog-single.php" class="block-20" style="background-image: url('assets/images/image_6.jpg');">
           </a>
           <div class="text mt-3 d-block pl-md-5">
             <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
