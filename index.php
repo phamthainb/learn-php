@@ -1,5 +1,13 @@
-<?php // print_r($_SERVER);
-require './controllers/loadPages.php';
-$loadPages = new LoadPages();
-$loadPages->DisplayPage("heyyy");
+<?php
+include './controllers/loadPagesControllers.php';
+
+$LoadPagesControllers = new LoadPagesControllers();
+
+if (isset($_GET['loadPages'])) {
+	$loadPages = $_GET['loadPages'];
+	require_once 'router.php';
+} else {
+	$loadPages = 'home';
+}
+$LoadPagesControllers->DisplayPage($loadPages);
 ?>

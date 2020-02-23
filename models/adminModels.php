@@ -37,7 +37,6 @@ class AdminModels {
 			foreach ($result as $rows) {
 				foreach ($rows as $key => $value) {
 					$data["$key"] = $value;
-					// echo "$key => $value <br>";
 				}
 			}
 

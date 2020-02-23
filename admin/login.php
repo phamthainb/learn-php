@@ -1,5 +1,10 @@
 <?php
+if (isset($_COOKIE['admin_login'])) {
+	header('Location: index.php');
+}
+
 require '../controllers/adminControllers.php';
+$result = false;
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	$adminControllers = new AdminControllers();
@@ -7,7 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	$admin_password = $_POST['admin_password'];
 	$result = $adminControllers->checkLogin($admin_name, $admin_password);
 	if ($result) {
-		echo ("seccess");
+		setcookie("admin_login", "abc", time() + 3 * 60 * 60);
+		header('Location: index.php');
 	}
 }
 ?>
@@ -32,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <form action="login.php" method="POST" class="form-login">
       <fieldset>
         <legend>login admin:</legend>
-        <?php if (!$result) {
+        <?php if (!$result && $_SERVER['REQUEST_METHOD'] == "POST") {
 	echo ("login false <br>");
 }
 ?>

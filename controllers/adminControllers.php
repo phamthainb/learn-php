@@ -12,11 +12,15 @@ class AdminControllers {
 	public function __construct() {}
 
 	public function checkLogin($admin_name, $admin_password) {
-		// echo "checkLogin <br> $admin_name <br> $admin_password";
 		include '../models/adminModels.php';
 		$adminModels = new AdminModels();
 		return $adminModels->CheckPassAdmin($admin_name, $admin_password);
+	}
 
+	//add product
+	public function AddProduct($product) {
+		echo ("hiiii");
+		print_r($product);
 	}
 }
 
