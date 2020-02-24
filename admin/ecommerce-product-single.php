@@ -19,13 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$product['product_inventory'] = $_POST['product_inventory'];
 	$product['product_size'] = $_POST['product_size'];
 
-	print_r($_POST);
-	print_r($_FILES);
-	print_r($product);
-	print_r(basename($_FILES["product_image"]['name']));
+	// print_r($_POST);
+	// print_r($_FILES);
+	// print_r($product);
+	// print_r(basename($_FILES["product_image"]['name']));
 
 	$adminControllers = new AdminControllers();
-	$adminControllers->AddProduct($product, $_FILES);
+	$adminControllers->AddProduct($product);
 }
 
 ?>
@@ -297,7 +297,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- end pageheader  -->
             <!-- ============================================================== -->
             <!-- //form add product to database -->
-            <form enctype="multipart/form-data" action="<?php echo (htmlspecialchars($_SERVER['PHP_SELF'])) ?>" method="POST">
+            <form  action="<?php echo (htmlspecialchars($_SERVER['PHP_SELF'])) ?>" method="POST" enctype="multipart/form-data">
               <div class="row">
                 <div class="offset-xl-2 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
                   <div class="row">
